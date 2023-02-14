@@ -656,7 +656,7 @@ CREATE TABLE Lotnisko(
 |<p>DataWaznosciRozpoczecie</p><p></p>|DATE|No|- |- |
 |DataWaznosciZakonczenie|DATE|No|-|<p></p><p>-</p><p></p>|
 |CzasTrwaniaDnia|INT|No|-|-|
-|<p></p><p>DoZatwierdzenia</p>|`             `INT|No|-|-|
+|<p></p><p>DoZatwierdzenia</p>|INT|No|-|-|
 |UzytkownikID|`             `INT|No|-|FK|
 |HotelID|`             `INT|No|-|FK|
 |LotniskoID|`             `INT|No|-|FK|
@@ -732,7 +732,7 @@ CREATE TABLE Wycieczka(
 |CzyZaleglosc|INT|No|-|-|
 |UzytkownikID|INT|No|-|FK|
 |WycieczkaID|INT|No|-|FK|
-|KlientID|INT|No|-|`       `FK|
+|KlientID|INT|No|-|FK|
 
 **SQL:**
 ```sql
