@@ -294,19 +294,19 @@ CREATE TABLE Wiadomosc(
 ```sql
 CREATE TABLE Klient(
 
-`    `KlientID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    KlientID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 
-`    `Imie VARCHAR(100) NOT NULL,
+    Imie VARCHAR(100) NOT NULL,
 
-`    `Nazwisko VARCHAR(100) NOT NULL,
+    Nazwisko VARCHAR(100) NOT NULL,
 
-`    `Pesel VARCHAR(11) NOT NULL,
+    Pesel VARCHAR(11) NOT NULL,
 
-`    `Adres VARCHAR(255) NOT NULL,
+    Adres VARCHAR(255) NOT NULL,
 
-`    `NumerTelefonu VARCHAR(100) NOT NULL,
+    NumerTelefonu VARCHAR(100) NOT NULL,
 
-`    `Email VARCHAR(100) NOT NULL
+    Email VARCHAR(100) NOT NULL
 
 );
 ```
