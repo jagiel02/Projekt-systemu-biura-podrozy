@@ -657,9 +657,9 @@ CREATE TABLE Lotnisko(
 |DataWaznosciZakonczenie|DATE|No|-|<p></p><p>-</p><p></p>|
 |CzasTrwaniaDnia|INT|No|-|-|
 |<p></p><p>DoZatwierdzenia</p>|INT|No|-|-|
-|UzytkownikID|`             `INT|No|-|FK|
-|HotelID|`             `INT|No|-|FK|
-|LotniskoID|`             `INT|No|-|FK|
+|UzytkownikID|INT|No|-|FK|
+|HotelID|INT|No|-|FK|
+|LotniskoID|INT|No|-|FK|
 
 
 
