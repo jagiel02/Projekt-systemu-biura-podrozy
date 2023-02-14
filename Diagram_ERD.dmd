@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Diagram_ERD" id="2090B69B-5D11-B592-5CF6-009A28E39A43" version="3.5">
+<createdBy>koppa</createdBy>
+<createdTime>2023-01-24 22:07:39 UTC</createdTime>
+<ownerDesignName>zolty_wykres_danych</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2090B69B-5D11-B592-5CF6-009A28E39A43</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EB626BBA-602E-648B-8ECB-6604E8770ED3">
+<designStoragePath>C:\szkola</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
