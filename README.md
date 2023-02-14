@@ -282,7 +282,7 @@ CREATE TABLE Wiadomosc(
 |**Nazwa kolumny**|**Typ danych**|**Null**|**Domyślnie**|**Klucz**|
 | :-: | :-: | :-: | :-: | :-: |
 |KlientID|INT|No|- |PK|
-|Imie|VARCHAR2(100)|No|- |- |
+|Imie|VARCHAR(100)|No|- |- |
 |<p>Nazwisko</p><p></p>|VARCHAR(100)|No|- |- |
 |Pesel|VARCHAR(100)|No|-|<p></p><p>-</p><p></p>|
 |Adres|VARCHAR(255)|No|-|-|
@@ -584,7 +584,7 @@ CREATE TABLE Hotel(
 );
 ```	
 ---
-**Tabela(Tab 2.16)**\
+**Tabela(Tab 2.14)**\
  Przeznaczona do przechowywania informacji o lotniskach w bazie danych. Tabela zawiera LotniskoID, NazwaLotniska, oraz klucz obcy MiastoID z tabeli Miasto.
 
 **Opis pól:**
@@ -668,6 +668,7 @@ CREATE TABLE Lotnisko(
 
 
 **SQL:**
+
 ```sql
 CREATE TABLE Wycieczka(
 
@@ -699,7 +700,7 @@ CREATE TABLE Wycieczka(
 ```
 ---
 
-**Tabela WycieczkaPlatnosc (Tab. 2.5)**\
+**Tabela WycieczkaPlatnosc (Tab. 2.16)**\
  Przeznaczona do przechowywania informacji o płatnościach wycieczki dostępnych w bazie danych. Tabela zawiera WyczkaPlatnoscID, KwotaZaplacona, KwotaPozostala, TerminPlatnosci, CzyZaleglosc, oraz klucze obce UzytkownikID z tabeli Uzytkownik, WycieczkaID z tabeli Wycieczka i KlientID z tabeli Klient.
 
 **Opis pol:**
@@ -720,7 +721,7 @@ CREATE TABLE Wycieczka(
 * KlientID – klucz obcy z tabeli Klient
 <br>
 
-**Tab 2.5 Struktura tabeli WycieczkaPlatnosc**
+**Tab 2.16 Struktura tabeli WycieczkaPlatnosc**
 
 |**Nazwa kolumny**|**Typ danych**|**Null**|**Domyślnie**|**Klucz**|
 | :-: | :-: | :-: | :-: | :-: |
