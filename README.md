@@ -139,7 +139,7 @@ Przeznaczona jest do przechowywania informacji o reklamach dostępnych bazie dan
 
 * DataWyslania – data wyslania reklamy
 
-* UzytkownikID – klucz obcy z tabeli Uzytkownik\
+* UzytkownikID – klucz obcy z tabeli Uzytkownik
 <br>
 
 **Tab 2.3 Struktura tabeli Reklama**
@@ -183,7 +183,7 @@ CREATE TABLE Reklama(
 
 * WyslanieSukces – czy reklama została wysłana
 
-* ReklamaID – klucz obcy z tabeli Reklama\
+* ReklamaID – klucz obcy z tabeli Reklama
 <br>
 
 **Tab 2.4 Struktura tabeli WyslanieReklamy**
@@ -224,7 +224,7 @@ CREATE TABLE WyslanieReklamy(
 
 * Tresc – treści wiadomości
 
-* UzytkownikID – klucz obcy z tabeli Uzytkownik\
+* UzytkownikID – klucz obcy z tabeli Uzytkownik
 <br>
 
 
@@ -274,7 +274,7 @@ CREATE TABLE Wiadomosc(
 
 * NumerTelefonu – numer telefonu klienta
 
-* Email – email klienta\
+* Email – email klienta
 <br>
 
 **Tab 2.6 Struktura tabeli Klient**
@@ -319,7 +319,7 @@ CREATE TABLE Klient(
 
 * RodzajeUbezpieczeniaID – klucz główny tabeli 
 
-* NazwaRodzaju – nazwa rodzaju ubezpieczenia\
+* NazwaRodzaju – nazwa rodzaju ubezpieczenia
 <br>
 
 **Tab 2.7 Struktura tabeli RodzajUbezpieczenia**
@@ -355,7 +355,7 @@ CREATE TABLE RodzajUbezpieczenia(
 
 * CzasTrwaniaWDniach – Czas trwania ubezpieczenia w dniach
 
-* RodzajUbezpieczeniaID – klucz obcy z tabeli RodzajUbezpieczenia\
+* RodzajUbezpieczeniaID – klucz obcy z tabeli RodzajUbezpieczenia
 <br>
 
 
@@ -404,7 +404,7 @@ CREATE TABLE Ubezpieczenie(
 
 * KlientID – klucz obcy z tabeli Klient
 
-* UbezpieczenieID – klucz obcy z tabeli Ubezpieczenie\
+* UbezpieczenieID – klucz obcy z tabeli Ubezpieczenie
 <br>
 
 
@@ -446,7 +446,7 @@ CREATE TABLE SprzedazUbezpieczenia(
 
 * KontynentID – klucz główny tabeli
 
-* NazwaKontynentu – nazwa kontynentu\
+* NazwaKontynentu – nazwa kontynentu
 <br>
 
 **Tab 2.10 Struktura tabeli Kontynent**
@@ -478,7 +478,7 @@ CREATE TABLE Kontynent(
 
 * NazwaKraju – nazwa kraju
 
-* KontynentID – klucz obcy z tabeli Kontynent\
+* KontynentID – klucz obcy z tabeli Kontynent
 <br>
 
 **Tab 2.11 Struktura tabeli Kraj**
@@ -513,7 +513,7 @@ CREATE TABLE Kraj(
 
 * NazwaMiasta – nazwa lotniska
 
-* KrajID – klucz obcy z tabeli Kraj\
+* KrajID – klucz obcy z tabeli Kraj
 <br>
 
 **Tab 2.12 Struktura tabeli Miasto**
@@ -553,7 +553,7 @@ CREATE TABLE Miasto(
 
 * Opis – opis hotelu
 
-* MiastoID – klucz obcy z tabeli Miasto\
+* MiastoID – klucz obcy z tabeli Miasto
 <br>
 
 **Tab 2.13 Struktura tabeli Hotel**
@@ -593,7 +593,7 @@ CREATE TABLE Hotel(
 
 * NazwaLotniska – nazwa lotniska
 
-* MiastoID – klucz obcy z tabeli Miasto\
+* MiastoID – klucz obcy z tabeli Miasto
 <br>
 
 **Tab 2.14 Struktura tabeli Lotnisko**
@@ -643,7 +643,7 @@ CREATE TABLE Lotnisko(
 
 * HotelID – klucz obcy z tabeli Hotel
 
-* LotniskoID – klucz obcy z tabeli Lotnisko\
+* LotniskoID – klucz obcy z tabeli Lotnisko
 <br>
 
 
@@ -717,7 +717,7 @@ CREATE TABLE Wycieczka(
 
 * WycieczkaID – klucz obcy z tabeli Wycieczka
 
-* KlientID – klucz obcy z tabeli Klient\
+* KlientID – klucz obcy z tabeli Klient
 <br>
 
 **Tab 2.5 Struktura tabeli WycieczkaPlatnosc**
