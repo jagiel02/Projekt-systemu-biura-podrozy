@@ -493,13 +493,13 @@ CREATE TABLE Kontynent(
 ```sql
 CREATE TABLE Kraj(
 
-`    `KrajID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    KrajID INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 
-`    `NazwaKraju VARCHAR(100) NOT NULL,
+    NazwaKraju VARCHAR(100) NOT NULL,
 
-`    `KontynentID INT NOT NULL,
+    KontynentID INT NOT NULL,
 
-`    `FOREIGN KEY (KontynentID) REFERENCES Kontynent(KontynentID)
+    FOREIGN KEY (KontynentID) REFERENCES Kontynent(KontynentID)
 
 );
 ```
